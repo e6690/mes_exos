@@ -1,0 +1,135 @@
+header{
+      background-color: rgb(58, 89, 152);
+      
+      
+}
+
+p{
+    font-size: small;
+}
+
+img{
+   width: 30px;
+   height: 30px;
+}
+
+.face{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20em;
+}
+
+
+.bas{
+    margin: 50px;
+    
+}
+
+
+.lower{
+    background-color: rgb(103, 146, 90);
+    width: 50px;
+    height: 20px;
+    padding: 3px 3px 4px 3px;
+    border: 1px solid rgb(103, 146, 90);
+    box-shadow: 6px 6px 6px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.haut{
+    background-color: rgb(58, 64, 152);
+    height: 20px;
+    border: 0.5px solid rgb(58, 64, 152);
+    border-radius: 2px;
+    box-shadow: rgb(58, 64, 152);
+    
+}
+
+.life{
+    padding-right: 5px;
+    color: black;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bleu{
+    color: midnightblue;
+}
+
+header, face{
+    color: white;
+}
+
+.gro{
+    display: flex;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.face, td{
+    font-size: small;
+    
+}
+
+.gauche{
+    margin: 90px;
+    
+}
+
+h1{
+    margin-inline-end: 200px;
+    
+}
+
+.gap{
+    margin-right: 10em;
+    
+}
+
+.body{
+    justify-content: space-around;
+}
+
+.lower2{
+    margin-top: 1em;
+    border-top: 1px solid rgb(165,162,162);
+}
+
+.sombre{
+    color: grey;
+}
+
+.img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 1020px){
+    body{
+        background-color: whitesmoke;
+    }
+    .droit{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:810px){
+    body{
+        background-color: tan;
+    }
+}
+
+
+
+
+    
+
+

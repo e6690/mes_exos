@@ -1,0 +1,183 @@
+.Googlelogo {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.centre{
+    margin-top: 10em;
+}
+.mic{
+    height: 18px;
+    width: 18px;
+    margin-left: -30px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+}
+header div{ margin: 0 10px; 
+}
+
+#search{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    border-bottom: 3px ridge;
+    border-radius: 50px;
+    color: #eaeaea;
+}
+
+
+h6{
+    text-align: center;
+    margin: 0 10px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.page1{
+    
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.gauche{
+    float: left;
+    display: flex;
+    font-size: 10px;
+
+}
+
+.droite{
+    align-content: right;
+    display: flex;
+    font-size: 10px;
+}
+
+.bloc1{
+    text-align: center;
+    font-size: small;
+}
+
+.bloc2{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(209, 206, 206);
+    margin-left: 5px;
+    
+}
+
+.gros{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+
+}
+
+.logo{
+    display: block;
+    margin: auto;
+}
+.recherche{
+    text-align: center;
+}
+
+.tête{
+    font-size: 10px;
+    text-align: center;
+}
+
+.bleu{
+    color: blue;
+}
+.bleu:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 10px;
+}
+
+.haut{
+    margin-right: 1em;
+}
+.haut2{
+    margin-right: 3em;
+    background-color: rgb(0, 140, 255);
+    padding-right: 1em;
+    padding-left: 1em;
+    padding: 1em;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(165, 162, 162);
+}
+.re{
+    margin-right: 1em;
+
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-color: brown;
+       
+    }
+    footer{
+        float: left;  
+    }
+    .haut{
+        float: left;
+    }
+    .haut2{
+        float: left;  
+    }
+}
+
+@media screen and (min-width: 1030px){ 
+    body{
+        background-color: blue;
+    }
+    footer{
+        float: none;
+    }
+    .haut{
+        float: left;
+    }
+    .haut2{
+        float: left;  
+    }
+
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color: #eaeaea;
+    }
+    footer{
+        float: left;
+    }
+    .haut{
+        float: left;
+    }
+    .haut2{
+        float: left;
+    }
+}
+
+
+
+
+    
